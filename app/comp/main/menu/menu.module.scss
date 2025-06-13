@@ -1,0 +1,68 @@
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background: rgba(255, 255, 255, 0.341);
+    z-index: 10;
+  }
+  .menu_1000 {
+    display: none;
+  }
+  
+  .left, .right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .logo {
+    
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .logo_block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logoImage {
+   width:70px;
+    height:auto; 
+  }
+  .logoText {
+    width: 100px;
+    height: auto;
+  }
+  .menuButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem ;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .menuButton:hover {
+    color: #0070f3;
+  }
+  
+
+   @media (min-width: 360px) and (max-width: 1000px) {
+   .left, .right {
+    
+  
+   display: none; 
+  }
+   .menu_1000 {
+    display: flex;
+    position:absolute;
+    top: 40px;
+    right: 10px;
+//  cursor: pointer;
+  z-index: 11;
+  }
+  }
