@@ -51,7 +51,9 @@
   }
   
 
-   @media (min-width: 360px) and (max-width: 1000px) {
+ 
+
+   @media (min-width: 500px) and (max-width: 1000px) {
    .left, .right {
     
   
@@ -66,3 +68,33 @@
   z-index: 11;
   }
   }
+
+  @media (min-width: 360px) and (max-width: 500px) {
+   .left, .right {
+    
+  
+   display: none; 
+  }
+
+  .logoImage {
+   width:40px;
+    height:auto; 
+  }
+  .logoText {
+    width: 70px;
+    height: auto;
+  }
+.menu {
+    padding: 0 20px;
+    height: 50px;
+   
+  }
+  .menu_1000 {
+    display: flex;
+    position:absolute;
+    top: 25px;
+    right: 20px;
+//  cursor: pointer;
+  z-index: 11;
+  }
+}

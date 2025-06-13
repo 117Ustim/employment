@@ -1,8 +1,9 @@
 .advantages {
   max-width: 1200px;
-  height: 100dvh;
+  height: 100svh;
   margin: 0 auto;
-  padding: 300px 20px;
+  padding: 22vh 50px;
+  
 .block {
 
 }
@@ -59,23 +60,64 @@
     .itemText {
       font-size: 20px;
       color: #555;
-      line-height: 1.3vw;
+      line-height: 24px;
     }
   }
 }
+ @media (min-width: 768px) and (max-width: 1000px) {
+.advantages {
+    padding: 18vh 10vw;
 
-@media (min-width: 380px) and (max-width: 768px) {
+    .title {
+      font-size: 30px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+    }
+
+    .list {
+      gap: 5vw;
+    }
+
+    .item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .icon {
+      min-width: 35px;
+      min-height: 35px;
+    }
+
+    .content {
+      flex: 1;
+
+      .itemTitle {
+        font-size: 18px;
+      }
+
+      .itemText {
+        font-size: 16px;
+      
+      }
+    }
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
   .advantages {
-    padding: 27vw 10vw;
+    padding: 5vh 10vw;
 .block {
     margin-top: 20vw;
 }
     .title {
-      font-size: 20px;
+      font-size: 24px;
     }
 
     .subtitle {
-      font-size: 16px;
+      font-size: 18px;
+       margin-bottom: 50px;
     }
 
     .list {
@@ -97,12 +139,58 @@
       flex: 1;
 
       .itemTitle {
-        font-size: 14px;
+        font-size: 18px;
       }
 
       .itemText {
-        font-size: 12px;
-      
+        font-size: 16px;
+       line-height: 21px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 360px) and (max-width: 500px) {
+  .advantages {
+    padding: 250px 40px;
+// .block {
+//     margin-top: 20vw;
+// }
+    .title {
+      font-size: 20px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+       margin-bottom: 50px;
+    }
+
+    .list {
+      gap: 5vw;
+    }
+
+    .item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .icon {
+      min-width: 30px;
+      min-height: 30px;
+    }
+
+    .content {
+      flex: 1;
+
+      .itemTitle {
+        font-size: 16px;
+      }
+
+      .itemText {
+        font-size: 14px;
+       line-height: 21px;
       }
     }
   }
