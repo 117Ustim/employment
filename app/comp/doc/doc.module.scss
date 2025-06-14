@@ -2,8 +2,8 @@
   position: relative;
  
   width: 100%;
-  height: 100svh;
-   overflow: hidden;
+  height: 100vh;
+  //  overflow: hidden;
 }
 
 .backgroundVideo {
@@ -16,6 +16,7 @@
 }
 
 .overlay {
+ 
   position: absolute;
   top: 0;
   left: 0;
@@ -25,13 +26,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:50px 40px 0 40px;
+   padding:0px 40px 0 40px;
   box-sizing: border-box;
 }
 
 .content {
   color: #ffffff;
-  text-align: center;
+  // text-align: center;
   max-width: 900px;
  
 }
@@ -39,9 +40,10 @@
 
 }
 .title {
+  padding-left: 3vh;
   font-size: 38px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 
 //   @media (min-width: 768px) {
 //     font-size: 40px;
@@ -92,13 +94,13 @@ padding:30px 50px 0 50px;
   .title {
   font-size: 22px;
 
-  margin-bottom: 30px;
+  margin-bottom: 3vh;
 
 }
   .text {
   font-size: 14px;
   line-height: 1.4;
-  padding:20px 20px 0 20px;
+  padding:5vh 3vh 0 3vh;
   }
 
 }

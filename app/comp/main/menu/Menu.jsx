@@ -15,9 +15,9 @@ export default function Menu() {
     <>
     <nav className={styles.menu}>
       <div className={styles.left}>
-        <button  className={styles.menuButton}onClick={() => scrollToSection("main")}>Головна</button>
+        <button  className={styles.menuButton}onClick={() => scrollToSection("main")}>Главная</button>
         <button  className={styles.menuButton}onClick={() => scrollToSection("history")}>О нас</button>
-         <button  className={styles.menuButton}onClick={() => scrollToSection("history")}>Послуги</button>
+         <button  className={styles.menuButton}onClick={() => scrollToSection("history")}>Услуги</button>
       </div>
 
       <div className={styles.logo}>
@@ -29,9 +29,9 @@ export default function Menu() {
       </div>
 
       <div className={styles.right}>
-        <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Вакансії</button>
-         <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Контакти</button>
-        <button className={styles.menuButton}onClick={() => scrollToSection("footer")}>Відгуки</button>
+        <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Вакансии</button>
+         <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Контакты</button>
+        <button className={styles.menuButton}onClick={() => scrollToSection("footer")}>Отзывы</button>
       </div>
     </nav>
     <div className={styles.menu_1000}>

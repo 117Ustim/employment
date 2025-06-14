@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 100svh;
+  height: 100vh;
 background-color: var(--background-history);
   
 }
@@ -157,9 +157,11 @@ margin: 10px 0 50px 0;
   }
 }
 
-@media (min-width: 360px) and (max-width: 499px) {
+@media (min-width: 360px) and (max-width: 500px) {
+
   .block {
-     padding: 80px 20px 0 20px;
+    
+     padding: 8vh 4vw 0 4vw;
     gap: 10px;
   }
   .left {
@@ -167,10 +169,10 @@ margin: 10px 0 50px 0;
     h2 {
       display: flex;
       justify-content: center;
-       font-size: 1.4rem;
+       font-size: 1.6rem;
     }
      p {
-      font-size: 14px;
+      font-size: 16px;
   
  line-height: 1.5;
       font-weight: 200;

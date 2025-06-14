@@ -9,7 +9,7 @@ import Main from '../app/comp/main/Main'
 import Advantages from './comp/advantages/Advantages'
 import History from '../app/comp/history/History'
 import Footer from '../app/comp/footer/Footer'
-
+import Services from '../app/comp/services/Services'
 import Menu from "../app/comp/main/menu/Menu"
 import Doc from "./comp/doc/Doc";
 
@@ -23,6 +23,7 @@ export default function Home() {
     { id: "history", component: <History /> },
      { id: "doc", component: <Doc/> },
     { id: "advantages", component: <Advantages /> },
+    { id: "services", component: <Services/> },
     { id: "footer", component: <Footer /> },
   ];
 

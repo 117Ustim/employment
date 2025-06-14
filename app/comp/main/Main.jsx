@@ -33,7 +33,7 @@ export default function Main() {
         <p className={styles.text}>
           {main_text[0].text}
         </p>
-        <button className={styles.button}>Зв'язатися з нами</button>
+        <button className={styles.button}>Связаться с нами</button>
       </motion.div>
     </div>
   );
