@@ -10,7 +10,7 @@ export default function Burger() {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
     }
-    // Закрыть меню после нажатия на кнопку
+   
     if (menuToggleRef.current) {
       menuToggleRef.current.checked = false;
     }
@@ -19,11 +19,11 @@ export default function Burger() {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
-        menuToggleRef.current?.checked && // Меню открыто
-        menuRef.current && // Меню существует
-        !menuRef.current.contains(event.target) // Клик вне меню
+        menuToggleRef.current?.checked && 
+        menuRef.current && 
+        !menuRef.current.contains(event.target) 
       ) {
-        menuToggleRef.current.checked = false; // Закрыть меню
+        menuToggleRef.current.checked = false;
       }
     };
 
@@ -43,12 +43,12 @@ export default function Burger() {
       <ul className="menubox">
         <span className="menu-item"></span>
         <div className="block_menu">
-          <button className="menu_button" onClick={() => scrollToSection('main')}>Головна</button>
+          <button className="menu_button" onClick={() => scrollToSection('main')}>Главная</button>
           <button className="menu_button" onClick={() => scrollToSection('history')}>О нас</button>
-          <button className="menu_button" onClick={() => scrollToSection('history')}>Послуги</button>
-          <button className="menu_button" onClick={() => scrollToSection('main')}>Вакансії</button>
-          <button className="menu_button" onClick={() => scrollToSection('history')}>Контакти</button>
-          <button className="menu_button" onClick={() => scrollToSection('history')}>Відгуки</button>
+          <button className="menu_button" onClick={() => scrollToSection('advantages')}>Услуги</button>
+          <button className="menu_button" onClick={() => scrollToSection('vacancies')}>Вакансии</button>
+          <button className="menu_button" onClick={() => scrollToSection('team')}>Контакти</button>
+          <button className="menu_button" onClick={() => scrollToSection('reviews')}>Отзывы</button>
         </div>
       </ul>
     </div>

@@ -17,7 +17,7 @@ export default function Menu() {
       <div className={styles.left}>
         <button  className={styles.menuButton}onClick={() => scrollToSection("main")}>Главная</button>
         <button  className={styles.menuButton}onClick={() => scrollToSection("history")}>О нас</button>
-         <button  className={styles.menuButton}onClick={() => scrollToSection("history")}>Услуги</button>
+         <button  className={styles.menuButton}onClick={() => scrollToSection("advantages")}>Услуги</button>
       </div>
 
       <div className={styles.logo}>
@@ -29,9 +29,9 @@ export default function Menu() {
       </div>
 
       <div className={styles.right}>
-        <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Вакансии</button>
-         <button className={styles.menuButton}onClick={() => scrollToSection("header")}>Контакты</button>
-        <button className={styles.menuButton}onClick={() => scrollToSection("footer")}>Отзывы</button>
+        <button className={styles.menuButton}onClick={() => scrollToSection("vacancies")}>Вакансии</button>
+         <button className={styles.menuButton}onClick={() => scrollToSection("team")}>Контакты</button>
+        <button className={styles.menuButton}onClick={() => scrollToSection("reviews")}>Отзывы</button>
       </div>
     </nav>
     <div className={styles.menu_1000}>

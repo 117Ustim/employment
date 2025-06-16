@@ -12,7 +12,7 @@ background-color: var(--background-history);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 300px 200px 0 200px;
+  padding: 12vh 200px 0 200px;
   gap: 100px;
 
   @media (max-width: 1000px) {
@@ -100,7 +100,7 @@ background-color: var(--background-history);
 @media (min-width: 768px) and (max-width: 1000px) {
  .block{
   
-  padding: 120px 100px 0px 100px;
+  padding: 10vh 100px 0px 100px;
   gap: 0px;
   }
   
@@ -123,23 +123,23 @@ background-color: var(--background-history);
 margin: 10px 0 50px 0;
     //  column-gap: 1vw;
     img {
-      width: 100%;
+      width: 200px;
     }
   }
 }
 
 
-@media (min-width: 500px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 768px) {
   .block {
-     padding: 140px 20px 0 20px;
+     padding: 10vh 20px 0 20px;
     gap: 0px;
   }
   .left {
-  
+
     h2 {
       display: flex;
       justify-content: center;
-       font-size: 2rem;
+       font-size: 1.7rem;
     }
      p {
       font-size: 14px;
@@ -152,7 +152,7 @@ margin: 10px 0 50px 0;
   .imagesGrid {
     column-gap: 1.7vw;
     img {
-      width: 100%;
+      width: 220px;
     }
   }
 }
@@ -161,7 +161,7 @@ margin: 10px 0 50px 0;
 
   .block {
     
-     padding: 6vh 4vw 0 4vw;
+     padding: 6vh 5vw 0 5vw;
     gap: 10px;
   }
   .left {
@@ -172,7 +172,7 @@ margin: 10px 0 50px 0;
        font-size: 1.6rem;
     }
      p {
-      font-size: 16px;
+      font-size: 14px;
   
  line-height: 1.5;
       font-weight: 200;

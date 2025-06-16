@@ -2,8 +2,10 @@
   margin: 0 auto;
   padding: 20px 10px; 
   text-align: center;
-  max-width: 100%; 
+  // max-width: 100%; 
   box-sizing: border-box; 
+  width: 100%;
+  background: var(--background-vacancies);
 }
 
 .title {
@@ -14,21 +16,22 @@
 
 .description {
   max-width: 1300px;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column; 
+  // justify-content: center;
+  // align-items: center;
   // max-width: 90%; 
-  margin: 0 5vh 30px 5vh; 
+   padding: 0 5vh 30px 5vh; 
   font-size: 16px; 
   line-height: 1.5; 
   color: #555;
   text-align: center; 
+  margin: 0 auto;
 }
 
-.description br {
-  display: none; 
-}
+// .description br {
+//   display: none; 
+// }
 
 .carousel {
   display: flex;

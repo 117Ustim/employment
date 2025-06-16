@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Paytone+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Paytone+One&display=swap'); */
 
 *{
 	padding: 0;
@@ -18,8 +18,10 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
- font-family: "Paytone One", sans-serif;
-
+ /* font-family: "Paytone One", sans-serif; */
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
   font-weight: 400;
   font-style: normal;
 	height: 100%;
@@ -46,6 +48,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 :root {
   --background-history: #eaeaea;
-  --background-advantages: #c2c1c1;
-  --background-dark: #000000;
+  --background-advantages: #f0f0f0;
+  --background-vacancies: #f0f0f0;
 }
