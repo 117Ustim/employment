@@ -63,8 +63,9 @@
    display: none; 
   }
    .menu_1000 {
+    
     display: flex;
-    position:absolute;
+    position:fixed;
      top: 5vh;
      right: 5vh;
   cursor: pointer;
@@ -95,7 +96,7 @@
   .menu_1000 {
     display: flex;
    
-     position:absolute;
+     position:fixed;
      top: 4vh;
      right: 2vh;
   cursor: pointer;

@@ -24,7 +24,7 @@ export default function Home() {
     { id: "vacancies", component: <Vacancies /> },
      { id: "team", component: <Team/> },
       { id: "reviews", component: <Reviews/> },
-    { id: "footer", component: <Footer /> },
+    // { id: "footer", component: <Footer /> },
   ];
 
   return (
@@ -41,13 +41,13 @@ export default function Home() {
             <motion.section
               key={id}
               id={id}
-              className={styles.section}
+               className={styles.section}
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-            >
+             >
               {component}
-            </motion.section>
+             </motion.section>
           ))}
         </div>
       </motion.div>

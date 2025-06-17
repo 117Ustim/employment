@@ -2,6 +2,8 @@
 import styles from './footer.module.scss';
 import { FaTelegramPlane, FaViber, FaWhatsapp, FaVk } from 'react-icons/fa';
 
+
+
 export default function Footer() {
   return (
     <div className={styles.container}>

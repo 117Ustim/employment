@@ -45,7 +45,7 @@ export default function Burger() {
         <div className="block_menu">
           <button className="menu_button" onClick={() => scrollToSection('main')}>Главная</button>
           <button className="menu_button" onClick={() => scrollToSection('history')}>О нас</button>
-          <button className="menu_button" onClick={() => scrollToSection('advantages')}>Услуги</button>
+          <button className="menu_button" onClick={() => scrollToSection('services')}>Услуги</button>
           <button className="menu_button" onClick={() => scrollToSection('vacancies')}>Вакансии</button>
           <button className="menu_button" onClick={() => scrollToSection('team')}>Контакти</button>
           <button className="menu_button" onClick={() => scrollToSection('reviews')}>Отзывы</button>
