@@ -66,7 +66,7 @@ export default function Menu() {
             onClick={() => scrollToSection("main")}
             style={{ cursor: "pointer" }}
           >
-            <img src="/logo.png" alt="Logo" className={styles.logoImage} />
+            <img src="/logo_1.png" alt="Logo" className={styles.logoImage} />
             <img src="/logo_text.png" alt="LogoText" className={styles.logoText} />
           </div>
         </div>
