@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import './burger.scss';
+import { useEffect, useRef } from "react";
+import "./burger.scss";
 
 export default function Burger() {
   const menuRef = useRef(null);
@@ -8,9 +8,9 @@ export default function Burger() {
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
+      el.scrollIntoView({ behavior: "smooth" });
     }
-   
+
     if (menuToggleRef.current) {
       menuToggleRef.current.checked = false;
     }
@@ -19,17 +19,17 @@ export default function Burger() {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
-        menuToggleRef.current?.checked && 
-        menuRef.current && 
-        !menuRef.current.contains(event.target) 
+        menuToggleRef.current?.checked &&
+        menuRef.current &&
+        !menuRef.current.contains(event.target)
       ) {
         menuToggleRef.current.checked = false;
       }
     };
 
-    document.addEventListener('click', handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
     return () => {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
@@ -43,12 +43,42 @@ export default function Burger() {
       <ul className="menubox">
         <span className="menu-item"></span>
         <div className="block_menu">
-          <button className="menu_button" onClick={() => scrollToSection('main')}>Главная</button>
-          <button className="menu_button" onClick={() => scrollToSection('history')}>О нас</button>
-          <button className="menu_button" onClick={() => scrollToSection('services')}>Услуги</button>
-          <button className="menu_button" onClick={() => scrollToSection('vacancies')}>Вакансии</button>
-          <button className="menu_button" onClick={() => scrollToSection('team')}>Контакти</button>
-          <button className="menu_button" onClick={() => scrollToSection('reviews')}>Отзывы</button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("main")}
+          >
+            Главная
+          </button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("history")}
+          >
+            О нас
+          </button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("services")}
+          >
+            Услуги
+          </button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("vacancies")}
+          >
+            Вакансии
+          </button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("team")}
+          >
+            Контакти
+          </button>
+          <button
+            className="menu_button"
+            onClick={() => scrollToSection("reviews")}
+          >
+            Отзывы
+          </button>
         </div>
       </ul>
     </div>

@@ -10,7 +10,7 @@ export default function Main() {
 
       <video
         className={styles.video}
-        src="/video_main_1.mp4"
+        src="/video_main_2.mp4"
         autoPlay
         loop
         muted
@@ -20,7 +20,7 @@ export default function Main() {
       {/* Затемнение */}
       <div className={styles.overlay}></div>
 
-     
+
       <motion.div
         className={styles.content}
         initial={{ opacity: 0 }}
@@ -44,20 +44,20 @@ export default function Main() {
         >
           {main_text[0].text}
         </motion.p>
-<a 
-  href="https://t.me/+Ecw2cS1TW1Q4NjM1" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
-        <motion.button
-          className={styles.button}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
+        <a
+          href="https://t.me/+Ecw2cS1TW1Q4NjM1"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Связаться с нами
-        </motion.button>
-       </a> 
+          <motion.button
+            className={styles.button}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8 }}
+          >
+            Связаться с нами
+          </motion.button>
+        </a>
       </motion.div>
     </div>
   );

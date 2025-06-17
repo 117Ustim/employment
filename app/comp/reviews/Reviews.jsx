@@ -36,37 +36,37 @@ export default function Reviews() {
   ];
 
   return (
-  <div className={styles.container}>
-    <div className={styles.reviewsSection}>
-      <div
-        className={styles.backgroundImage}
-      ></div>
-      <div className={styles.overlay}></div>
-      <div className={styles.content}>
-        <h1 className={styles.title}>Что клиенты думают о нас</h1>
-        <div className={styles.cards}>
-          {reviews.map((review) => (
-            <div key={review.id} className={styles.card}>
-              <div className={styles.header}>
-                <Image
-                  src={review.image}
-                  alt={review.name}
-                  width={60}
-                  height={60}
-                  className={styles.avatar}
-                />
-                <div>
-                  <h3 className={styles.name}>{review.name}</h3>
-                  <p className={styles.role}>{review.role}</p>
+    <div className={styles.container}>
+      <div className={styles.reviewsSection}>
+        <div
+          className={styles.backgroundImage}
+        ></div>
+        <div className={styles.overlay}></div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Что клиенты думают о нас</h1>
+          <div className={styles.cards}>
+            {reviews.map((review) => (
+              <div key={review.id} className={styles.card}>
+                <div className={styles.header}>
+                  <Image
+                    src={review.image}
+                    alt={review.name}
+                    width={60}
+                    height={60}
+                    className={styles.avatar}
+                  />
+                  <div>
+                    <h3 className={styles.name}>{review.name}</h3>
+                    <p className={styles.role}>{review.role}</p>
+                  </div>
                 </div>
+                <p className={styles.text}>{review.text}</p>
               </div>
-              <p className={styles.text}>{review.text}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
-    <Footer />
-  </div>
-);
+  );
 }

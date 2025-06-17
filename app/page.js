@@ -1,12 +1,11 @@
 "use client";
 
 import styles from "./page.module.scss";
-import { useEffect, useState } from "react";
+
 import { motion, AnimatePresence } from "framer-motion";
 import Main from "../app/comp/main/Main";
 import Advantages from "./comp/advantages/Advantages";
 import History from "../app/comp/history/History";
-import Footer from "../app/comp/footer/Footer";
 import Services from "../app/comp/services/Services";
 import Menu from "../app/comp/main/menu/Menu";
 import Doc from "./comp/doc/Doc";
@@ -22,9 +21,9 @@ export default function Home() {
     { id: "advantages", component: <Advantages /> },
     { id: "services", component: <Services /> },
     { id: "vacancies", component: <Vacancies /> },
-     { id: "team", component: <Team/> },
-      { id: "reviews", component: <Reviews/> },
-    // { id: "footer", component: <Footer /> },
+    { id: "team", component: <Team /> },
+    { id: "reviews", component: <Reviews /> },
+   
   ];
 
   return (
@@ -41,13 +40,13 @@ export default function Home() {
             <motion.section
               key={id}
               id={id}
-               className={styles.section}
+              className={styles.section}
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-             >
+            >
               {component}
-             </motion.section>
+            </motion.section>
           ))}
         </div>
       </motion.div>

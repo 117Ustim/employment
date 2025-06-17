@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function Swiper() {
   const carouselItems = [
     { id: 1, image: "/2.jpg", title: "Склад Amazon в Дубаи, ОАЭ", requirements: "Требования: Любой пол от 18 до 60 лет. Знание языка не требуется.", salary: "Зарплата: 18 USD в час нетто.", schedule: "График работы: 5-6 дней в неделю, 8-10-12 часов в день." },
-    { id: 2, image: "/1.jpg", title: "Склад техники Apple в США", requirements: "Требования: Любой пол от 18 до 60 лет.Знание языка не требуется",salary: "Зарплата: 19 EUR в час нетто", schedule: "График работы: 5-6 дней в неделю, от 8 до 12 часов в день" },
- 
+    { id: 2, image: "/1.jpg", title: "Склад техники Apple в США", requirements: "Требования: Любой пол от 18 до 60 лет.Знание языка не требуется", salary: "Зарплата: 19 EUR в час нетто", schedule: "График работы: 5-6 дней в неделю, от 8 до 12 часов в день" },
+
     { id: 3, image: "/3.jpg", title: "Водитель категории 'В' и 'С'", requirements: "Требования: Любой пол от 18 до 60 лет. Знание языка не требуется.", salary: "Зарплата: 18 USD в час нетто.", schedule: "График работы: 5-6 дней в неделю, 8 -12 часов в день." },
     { id: 4, image: "/4.jpg", title: "Склад одежды в Сеуле", requirements: "Требования: Любой пол от 18 до 55 лет. Знание языка не требуется.", salary: "Зарплата: 16 USD в час нетто.", schedule: "График работы: 5 дней в неделю, 10 часов в день." },
     { id: 5, image: "/1.jpg", title: "Склад Nike в Дубаи, ОАЭ", requirements: "Требования: Любой пол от 18 до 50 лет. Знание языка не требуется.", salary: "Зарплата: 20 USD в час нетто.", schedule: "График работы: 5-6 дней в неделю, 8-10-12 часов в день." },
@@ -129,7 +129,7 @@ export default function Swiper() {
             <div
               key={`${item.id}-${index}`}
               className={styles.carouselItem}
-              ref={index === initialIndex ? cardRef : null} 
+              ref={index === initialIndex ? cardRef : null}
             >
               <Image
                 src={item.image}

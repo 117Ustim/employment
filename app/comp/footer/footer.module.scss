@@ -1,7 +1,7 @@
 .container {
-    width: 100%;
+  width: 100%;
   background-color: #121212;
-  height: auto; 
+  height: auto;
   min-height: 200px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
 .icons {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 
   a {
     font-size: 30px;
@@ -44,18 +44,16 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .text {
     font-size: 16px;
-    padding: 0 10px; 
+    padding: 0 10px;
   }
 
   .icons a {
     font-size: 26px;
   }
 }
-
 
 @media (max-width: 480px) {
   .text {
