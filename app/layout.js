@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "CINTE IBERIA",
   description: "Официальный сайт CINTE IBERIA — услуги, история, контакты.",
+  icons: {
+    icon: '/favicon.ico.png', 
+  },
 };
 
 export default function RootLayout({ children }) {
