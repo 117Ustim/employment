@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
       <p className={styles.text}>
-        Если у вас остались вопросы, пожалуйста, свяжитесь с нами через любой удобный для вас мессенджер или напишите нам на почту: <a href="mailto:gironarecruitmentsl@outlook.com">gironarecruitmentsl@outlook.com</a>
+        Если у вас остались вопросы, пожалуйста, свяжитесь с нами через любой удобный для вас мессенджер или напишите нам на почту: <a href="mailto:info.barkingjobs@gmail.com">info.barkingjobs@gmail.com</a>
       </p>
       <div className={styles.icons}>
         <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
