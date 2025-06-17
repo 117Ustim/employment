@@ -58,7 +58,7 @@ export default function Team() {
       position: 'Управляющая компанией, руководитель финансового отдела',
       education: 'Высшее образование, магистр SAIS Europe (Johns Hopkins University, Болонья) ',
       experience: 'Опыт работы в компании 7 лет',
-      image: '/1/team_1.jpg',
+      image: '/1/team_8.jpg',
     },
   ];
 
