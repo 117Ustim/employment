@@ -44,7 +44,11 @@ export default function Main() {
         >
           {main_text[0].text}
         </motion.p>
-
+<a 
+  href="https://t.me/+Ecw2cS1TW1Q4NjM1" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
         <motion.button
           className={styles.button}
           initial={{ opacity: 0 }}
@@ -53,6 +57,7 @@ export default function Main() {
         >
           Связаться с нами
         </motion.button>
+       </a> 
       </motion.div>
     </div>
   );

@@ -11,16 +11,16 @@ export default function Footer() {
         Если у вас остались вопросы, пожалуйста, свяжитесь с нами через любой удобный для вас мессенджер или напишите нам на почту: <a href="mailto:info.barkingjobs@gmail.com">info.barkingjobs@gmail.com</a>
       </p>
       <div className={styles.icons}>
-        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/+Ecw2cS1TW1Q4NjM1" target="_blank" rel="noopener noreferrer">
           <FaTelegramPlane />
         </a>
-        <a href="viber://chat" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaViber />
         </a>
-        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
         </a>
-        <a href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaVk />
         </a>
       </div>
