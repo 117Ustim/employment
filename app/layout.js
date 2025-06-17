@@ -15,7 +15,7 @@ export const metadata = {
   title: "CINTE IBERIA",
   description: "Официальный сайт CINTE IBERIA — услуги, история, контакты.",
   icons: {
-    icon: '/favicon.ico.png', 
+    icon: '/favicon.png', 
   },
 };
 
