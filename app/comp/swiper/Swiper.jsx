@@ -142,7 +142,13 @@ export default function Swiper() {
               <p className={styles.text}>{item.requirements}</p>
               <p className={styles.text}>{item.salary}</p>
               <p className={styles.text}>{item.schedule}</p>
-              <button className={styles.detailsButton}>Подробнее</button>
+              <a
+                href="https://t.me/+Ecw2cS1TW1Q4NjM1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={styles.detailsButton}>Подробнее</button>
+              </a>
             </div>
           ))}
         </div>
