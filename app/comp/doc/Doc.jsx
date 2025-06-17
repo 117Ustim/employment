@@ -9,7 +9,7 @@ return (
      
       <video
         className={styles.backgroundVideo}
-        src="/doc.mp4" 
+        src="/doc_1.mp4" 
         autoPlay
         loop
         muted
